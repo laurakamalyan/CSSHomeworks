@@ -1,0 +1,213 @@
+@font-face {
+    font-family: "tiltneon-regular";
+    src: url("../fonts/TiltNeon-Regular.ttf");
+}
+
+@font-face {
+    font-family: "notosans-regular";
+    src: url("../fonts/NotoSans_SemiCondensed-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+#header {
+    background-color: #16A086;
+    padding: 30px 100px;
+}
+
+/* Logo */
+header#header > a {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 35px;
+    font-family: tiltneon-regular;
+    letter-spacing: -1px;
+}
+
+#header a {
+    text-decoration: none;
+}
+
+#header > a::before {
+    content: "\f013";
+    font-family: "fontawesome";
+    margin: 0 15px 0 40px;
+}
+
+/* Menu */
+#header > nav.navbar {
+    width: 513px;
+    background-color: #1BBC9B;
+    padding-left: 20px;
+    border: 1px solid #1BBC9B;
+    margin-top: 10px;
+}
+
+#header > nav.navbar > ul.menu li {
+    display: inline-block;
+    height: 40px;
+    padding: 10px 15px 0;
+    cursor: pointer;
+}
+
+#header > nav.navbar > ul.menu li:hover {
+    background-color: #16A086;
+}
+
+#header > nav.navbar > ul.menu li > a.link {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: tiltneon-regular;
+    font-size: 12px;
+}
+
+#header .link:link {
+    color: #9ff0b1;
+}
+
+#header .link:visited {
+    color: #fff;
+}
+
+#header .link:link {
+    color: rgb(13, 190, 137);
+}
+
+/* section 1 */
+#main > section:first-child {
+    background-color: #F3F3F3;
+}
+
+#main section:not(section:first-child),
+#main .section1 {
+    padding: 30px 120px;
+}
+
+#main > section > div.section1, 
+#main > section > div.section2 {
+    text-align: center;
+}
+
+.section1 > h1 {
+    font-size: 26px;
+    font-family: notosans-regular;
+}
+
+h1, h3 {
+    color: #3B4042;
+}
+
+.section1 > h1 ~ p.text {
+    margin-top: 25px;
+}
+
+.text {
+    color: #847987;
+    font-size: 12px;
+}
+
+.section1 > h1 ~ p > span.bold {
+    font-weight: 600;
+    color: #3B4042;
+}
+
+.section1 > h1 ~ p > a {
+    text-transform: capitalize;
+    color: #16A086;
+}
+
+.section1 > h1 ~ p > a:nth-child(2) {
+    text-transform: uppercase;
+}
+
+/* section 2 */
+.section2 {
+    margin-top: 40px;
+}
+
+.section2::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.section2 > div {
+    width: 30%;
+    float: left;
+}
+
+.section2 > div:nth-child(2) {
+    margin-left: 5%;
+}
+
+.section2 > div:nth-child(3) {
+    float: right;
+}
+
+.section2 h3 {
+    font-size: 15px;
+    font-family: tiltneon-regular;
+}
+
+.section2 .text {
+    margin: 30px 35px;
+}
+
+.section2 > div > h3 ~ button {
+    background-color: #16A086;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 10px;
+}
+
+.section2 button:hover {
+    cursor: pointer;
+}
+
+/* section 3 */
+.section3 {
+    margin-top: 50px;
+}
+
+.section3::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.section3 .block {
+    width: 20%;
+    height: 130px;
+    background-color: #208080;
+    margin-left: 5%;
+}
+
+.section3 .left {
+    float: left;
+}
+
+.section3 .right {
+    float: right;
+}
+
+.section3 .block:first-child {
+    background: linear-gradient(30deg, #16a086 30%, #22bdcf 70%);
+}
+
+.section3 .block:nth-child(2) {
+    background: linear-gradient(90deg, #16a086, #22bdcf, #206E9E);
+}
+
+.section3 .block:nth-child(3) {
+    background: radial-gradient(circle, #206E9E 15%, #16a086 40%, #22bdcf 45%);
+}
+
+.section3 .block:last-child {
+    background: radial-gradient(ellipse, #22bdcf 25%, #16a086 60%);
+}

@@ -1,0 +1,197 @@
+#form1>table {
+    background-color: #5B12A0;
+    padding: 25px 15px 20px;
+}
+
+#form1 input {
+    border: none;
+    height: 25px;
+    margin: 5px 2px;
+    color: #fff;
+}
+
+#form1 ::placeholder {
+    color: #fff;
+    font-size: 11px;
+}
+
+.input-name {
+    width: 312px;
+    background-color: #8115E9;
+}
+
+#form1 .input {
+    width: 142px;
+    background-color: #8115E9;
+}
+
+#form1 textarea {
+    width: 312px;
+    height: 70px;
+    border: none;
+    margin: 5px 2px;
+    color: #fff;
+}
+
+.input-name, #form1 .input, #form1 textarea {
+    background-color: #8115E9;
+    padding: 7px 10px;
+}
+
+#form1 .button {
+    width: 100%;
+    background-color: #2AFEBE;
+    border: none;
+    padding: 7px;
+    font-size: 10px;
+    margin-top: 15px;
+}
+
+/* Form 2 */
+#form2 {
+    background-color: #044591;
+    padding: 20px;
+}
+
+#form2 ::placeholder {
+    color: #4776AA;
+    font-style: italic;
+}
+
+#form2>.form {
+    width: 360px;
+    text-align: center;
+    margin: auto;
+    background-color: #386FAC;
+    border-radius: 13px;
+    padding-bottom: 20px;
+} 
+
+#form2 h3 {
+    margin: 0;
+    padding: 10px;
+    background-color: #073C78;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    color: #fff;
+}
+
+#form2 input, #form2 textarea {
+    background-color: #5685BA;
+    border: none;
+    border-bottom: 2px solid #183F7F;
+    border-radius: 5px;
+    padding: 7px;
+    width: 300px;
+    font-size: 11px;
+    color: #fff;
+}
+
+#form2 textarea {
+    height: 50px;
+}
+
+#form2 button {
+    width: 300px;
+    border-radius: 5px;
+    background-color: #074181;
+    padding: 5px;
+    color: #fff;
+    border-top: none;
+    border-left: none;
+}
+
+/* Form 3 */
+#form3 table {
+    border-radius: 5px;
+    background-color: #DD8802;
+}
+
+#form3 thead {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#form3 thead td {
+    padding: 8px 10px;
+    color: #CED36A;
+}
+
+#form3 tbody {
+    background-color: #212537;
+    color: #CED36A;
+    font-size: 13px;
+}
+
+#form3 tbody td {    
+    padding-top: 15px;
+}
+
+.form-input {
+    width: 250px;
+}
+
+#country {
+    width: 260px;
+    color: #A5A5A6;
+}
+
+.form-input, #country {
+    border-radius: 3px;
+    border: none;
+    padding: 5px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+#gender {
+    margin-left: 15px;
+}
+
+.date-of-birth select {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    margin-left: 20px;
+    color: #A5A5A6;
+}
+
+.right {
+    text-align: right;
+    padding-left: 50px;
+}
+
+.checkbox {
+    font-size: 12px;
+    padding-left: 13px;
+    padding-bottom: 20px;
+}
+
+#form3 tfoot {
+    text-align: right;
+}
+
+#form3 tfoot td {
+    padding: 8px 10px;
+}
+
+.btn-submit {
+    background-color: #64B565;
+}
+
+.btn-cancel {
+    background-color: #DD504B;
+}
+
+.btn-submit, .btn-cancel {
+    color: #fff;
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+#form3 ::placeholder {
+    color: #A5A5A6;
+    font-size: 12px;
+}

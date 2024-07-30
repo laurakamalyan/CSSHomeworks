@@ -1,0 +1,74 @@
+.div-width {
+    width: 500px;
+}
+
+/* Task 1 */
+.div1 {
+    border: solid #AD4954;
+    padding-left: 8px;
+}
+
+.div1>p:first-child {
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.div1 .bg-pic {
+    width: 200px;
+    height: 200px;
+    border: 5px outset #F1A31E;
+    background-image: url('../img/fox.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div1 .bg-color {
+    width: 190px;
+    border: 5px dashed #F5A304;
+    background-color: #FDFD00;
+    padding: 20px 10px 10px;
+    text-decoration: underline;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.div1 .bg-color span {
+    font-weight: bold;
+}
+
+/* Task 2 */
+.div2 h1 {
+    color: #F4070A;
+    text-align: center;
+    background-color: #FEE7C7;
+    text-transform: capitalize;
+    border: 10px groove #231D9A;
+    padding-bottom: 8px;
+    text-shadow: 3px 4px #060500; 
+    font-family: "Abril Fatface", serif;
+}
+
+.div2 .p1 {
+    border: 7px ridge #0B510B;
+    background-color: #AEEEEE;
+    padding: 18px 0;
+    margin-bottom: 0;
+}
+
+.p1, .div3 {
+    font-size: 18px;
+}
+
+.div2 .div3 {
+    border: 14px inset #9A6231;
+    background-color: #020181;
+    color: #C2D07D;
+    font-weight: 500;
+}
+
+.div3 p:last-child {
+    text-align: center;
+}

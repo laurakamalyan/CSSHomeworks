@@ -1,0 +1,241 @@
+
+@font-face {    
+    font-family: 'righteous-regular';
+    src: url('../fonts/Righteous-Regular.ttf');
+}
+
+@font-face {    
+    font-family: 'pacifico-regular';
+    src: url('../fonts/Pacifico-Regular.ttf');
+}
+
+@font-face {    
+    font-family: 'kanit-bold';
+    src: url('../fonts/Kanit-Bold.ttf');
+}
+
+@font-face {    
+    font-family: 'roboto-bold';
+    src: url('../fonts/Roboto-Bold.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* header */
+header nav {
+    padding: 8px 100px;
+    font-weight: 600;
+}
+
+/* logo */
+header>nav>.logo {
+    text-transform: uppercase;
+    font-family: righteous-regular;
+    font-size: 28px;
+    letter-spacing: -1px;
+    display: inline-block;
+    margin-right: 290px;
+}
+
+header>nav>.logo>span::after {
+    content: "X";
+    color: #E17021;
+    font-family: pacifico-regular;
+    font-size: 24px;
+}
+
+/* menu */
+header>nav ul.navbar {
+    display: inline-block;
+}
+
+header>nav .navbar>li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+header>nav .navbar>li>a {
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+header>nav .navbar>li>a:hover {
+    color: #E17021;
+}
+
+/* home section */
+#home {
+    height: 500px;
+    background-image: url("../img/bg-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#home>#home-content {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 150px;
+}  
+
+#home-content>h1 {
+    font-size: 60px;
+    font-family: kanit-bold;
+}
+
+#home-content>h1 span {
+    color: #E17021;
+}
+
+/* buttons */
+#home-content .buttons button {
+    border: 1px solid #fff;
+    background-color: transparent;
+    font-size: 11px;
+    padding: 10px 20px;
+    border-radius: 2px;
+    margin: 30px 3px;
+}
+
+#home-content .buttons button:first-child::before {
+    content: "\f148";
+}
+
+#home-content .buttons button:last-child,
+#home-content .buttons button:first-child:hover {
+    background-color: #E17021;
+    border-color: #E17021;
+}
+
+#home-content .buttons button:last-child::before {
+    content: "\f019";
+}
+
+#home-content .buttons button:first-child::before, 
+#home-content .buttons button:last-child::before {
+    font-family: fontawesome;
+    margin-right: 5px;
+}
+
+#home-content .buttons button:last-child:hover {
+    background-color: transparent;
+    border-color: #fff;
+}
+
+#home-content>h1, 
+#home-content p,
+#home-content .buttons button {
+    text-transform: uppercase;
+    color: #fff;
+}  
+
+#home-content>h1, 
+#home-content p,
+#home-content .buttons {
+    text-align: center;
+}
+
+#home-content p {
+    font-family: roboto-bold;
+}
+
+/* small circles */
+#home .circles {
+    text-align: center; 
+}
+
+#home .circles .circle {
+    width: 7px;
+    height: 7px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#home .circles .circle:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+/* about section */
+#about>#about-content {
+    padding: 70px 100px 70px 150px;
+}
+
+#about>#about-content .about-div {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.about-div>.icon {
+    float: left;
+}
+
+.about-div .div1 {
+    width: 270px;
+    float: right;
+}
+
+#about .about-div p {
+    color: #A3A3A3;
+    font-size: 12px;
+    margin-top: 10px;
+    line-height: 20px;
+}
+
+.about-div:first-child .icon:before {
+    content: "\f0c2";
+}
+
+.about-div:nth-child(2) .icon::before {
+    content: "\f1d9";
+}
+
+.about-div:last-child .icon::before {
+    content: "\f1d2";
+}
+
+.about-div .icon::before,
+.about-div:nth-child(2) .icon::before,
+.about-div:last-child .icon::before {
+    font-family: "fontawesome";
+    margin-right: 15px;
+    color: #E17021;
+    font-size: 20px;
+}
+
+#services, #team, #work, #pricing,
+#blog, #contact, #features {
+    height: 500px;
+}
+
+#services { background-color: aqua; }
+#team { background-color: yellow; }
+#work { background-color: violet; }
+#pricing { background-color: gray; }
+#blog { background-color: salmon; }
+#contact { background-color: teal; }
+#features { background-color: royalblue; }
+
+h2 {
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+    padding-top: 150px;
+    font-size: 60px;
+}
+
+footer p {
+    font-size: 30px;
+    background-color: grey;
+    text-align: center;
+    padding: 40px;
+}

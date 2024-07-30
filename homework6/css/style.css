@@ -1,0 +1,74 @@
+@font-face {    
+    font-family: 'patua-one-regular';
+    src: url('../fonts/PatuaOne-Regular.ttf');
+
+    font-family: 'montage-regular';
+    src: url('../fonts/Montaga-Regular.ttf');
+
+    font-family: 'ptsans-regular';
+    src: url('../fonts/PTSans-Regular.ttf');
+
+    font-family: 'wendy-one-regular';
+    src: url('../fonts/WendyOne-Regular.ttf');
+}
+
+/* Task 1 */
+#main1 {
+    width: 45%;
+    border: 3px solid #D8D2BC;
+    line-height: 22px;
+}
+
+#main1>h1 {
+    color: #F08F24;
+    font-family: patua-one-regular;
+    word-spacing: 5px;
+}
+
+.ul1 {
+    list-style-type: none;
+    letter-spacing: 1px;
+}
+
+#main1 .ul1 h3 {
+    color: #7A482F;
+    font-family: montage-regular;
+}
+
+#main1 .ul1 ul {
+    list-style-type: disc;
+}
+
+#main1 h1, #main1 p {
+    text-align: center;
+}
+
+#main1 p>span {
+    font-weight: 600;
+}
+
+/* Task 2 */
+#main2 {
+    width: 400px;
+    border: 1px solid;
+    padding: 10px;
+}
+
+#main2>h2 {
+    margin-top: 0;
+    font-family: patua-one-regular;
+}
+
+#main2 p {
+    font-family: ptsans-regular;
+}
+
+#main2 p:nth-child(5) {
+    letter-spacing: 1px;
+    word-spacing: 16px;
+}
+
+.red {
+    color: red;
+    font-family: wendy-one-regular;
+}
